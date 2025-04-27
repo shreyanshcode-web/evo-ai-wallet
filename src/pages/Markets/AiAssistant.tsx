@@ -75,10 +75,12 @@ const AiAssistant = () => {
       ]
     }
   ];
-  
+  const [hasMounted, setHasMounted] = useState(false);
   useEffect(() => {
-    if (messagesEndRef.current) {
+    if (hasMounted && messagesEndRef.current) {
       messagesEndRef.current.scrollIntoView({ behavior: "smooth" });
+    } else {
+      setHasMounted(true);
     }
   }, [messages]);
   
