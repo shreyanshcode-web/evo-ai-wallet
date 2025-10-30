@@ -48,16 +48,6 @@ We integrated the following API to provide comprehensive crypto insights:
    - Supplies detailed coin data including prices, rankings, and historical performance.  
    - Used for backend logic in our coin analyser engine.
 
-
-## 🧠 Team Evo
-
-| Name           | Role                  | GitHub                         |Linkdin                             |
-|----------------|-----------------------|--------------------------------|------------------------------------|
-| Aayush Kumar Singh| Frontend Developer| [@Aayush9-spec](https://github.com/Aayush9-spec)|[Linkedin-Aayush](https://www.linkedin.com/in/aayush-kumar-singh-929981236)|
-| Arpit Yadav| Backend Developer| [@Nickjr0](https://github.com/Nickjr0)|[Linkedin-Arpit](https://www.linkedin.com/in/arpit-tiwari-349765345/)|
-| Shreyansh Singh| AI/ML Engineer| [@shreyanshcode-web](https://github.com/shreyanshcode-web)|[Linkedin-Shreyansh](https://www.linkedin.com/in/shreyansh-singh-532863332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)|
-| Amitesh Shukla| Product Designer| [@amiteshkrshukla](https://github.com/amiteshkrshukla)|[Linkedin-Amitesh](https://www.linkedin.com/in/amitesh-kumar-shukla-17152a343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)|
-
 ---
 
 ## 🎯 Our Mission
@@ -135,8 +125,3 @@ This project is built with:
 - 💳 Adding full wallet experience
 - 💹 Fully functioning buying and selling window
 """
-
-
-# 🙌 Special Thanks
-
-Big shoutout to Namespace Community for organizing the hackathon and providing a killer problem statement with Gork API! """
