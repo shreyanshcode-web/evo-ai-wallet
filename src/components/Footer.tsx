@@ -89,7 +89,7 @@ export function Footer() {
                 <Github size={20} />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a href="https://www.linkedin.com/in/aayush-kumar-singh-929981236/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/shreyansh-singh-7-7-7-7-7-7-/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </a>
