@@ -6,7 +6,7 @@ A smart, AI-powered crypto wallet that leverages real-time market analysis to he
 
 ---
 
-## 📌 Problem Statement <1>
+## 📌 Problem Statement
 
 > **"Implement the Gork API in a project that helps users make sense of live crypto market data and empowers them with actionable insights."**
 
