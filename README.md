@@ -124,4 +124,5 @@ This project is built with:
 - 📊 Advanced analytics and predictions
 - 💳 Adding full wallet experience
 - 💹 Fully functioning buying and selling window
+- 📊 Technical Model training
 """
