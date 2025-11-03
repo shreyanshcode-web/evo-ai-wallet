@@ -1,8 +1,15 @@
 
 import axios from "axios";
 
-// Store API key - In a production environment, this should be stored in environment variables
-const GROQ_API_KEY = "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";
+// Prefer environment variable (Vite exposes variables prefixed with VITE_ to the client).
+// If an env var is not provided, we fallback to the in-repo key for backward compatibility,
+// but this is unsafe for public repos and should be replaced with a secret in CI/CD.
+const GROQ_API_KEY = (import.meta.env as any).VITE_GROQ_API_KEY || "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";
+
+if (!((import.meta.env as any).VITE_GROQ_API_KEY)) {
+  // Warn in dev when the repo contains a hardcoded key
+  console.warn("Using hardcoded Groq API key. Move the key to an environment variable VITE_GROQ_API_KEY to avoid committing secrets.");
+}
 
 // Flag to toggle between mock and production API calls
 const USE_MOCK_DATA = false; // Set to false to use real API
@@ -167,9 +174,16 @@ export const getAIAnalysis = async (cryptoSymbol: string): Promise<AIAnalysisRes
       }
     );
 
-    // Extract the AI response
-    const aiResponse = response.data.choices[0].message.content;
-    console.log(`Received Groq API response for ${symbol}`);
+    // Extract the AI response (defensive checks)
+    const aiResponse = response?.data?.choices?.[0]?.message?.content;
+    console.log(`Received Groq API response for ${symbol}`, {
+      status: response?.status,
+      hasContent: Boolean(aiResponse),
+    });
+    if (!aiResponse) {
+      console.error('Groq API response missing expected content', response?.data);
+      throw new Error('Invalid response from Groq API');
+    }
     
     // Process and structure the AI response
     const processedResponse: AIAnalysisResponse = {
@@ -181,7 +195,16 @@ export const getAIAnalysis = async (cryptoSymbol: string): Promise<AIAnalysisRes
     
     return processedResponse;
   } catch (error) {
-    console.error("Error fetching AI analysis:", error);
+    // Improved axios error logging to surface status and server message
+    const err: any = error;
+    if (err?.response) {
+      console.error("Groq API Error:", {
+        status: err.response.status,
+        data: err.response.data,
+      });
+    } else {
+      console.error("Error fetching AI analysis:", err?.message || err);
+    }
     
     // Return a fallback response on error
     return {
@@ -238,10 +261,23 @@ export const getChatbotResponse = async (message: string): Promise<string> => {
       }
     );
     
-    console.log("Received Groq API response for chat");
-    return response.data.choices[0].message.content;
+    const content = response?.data?.choices?.[0]?.message?.content;
+    console.log("Received Groq API response for chat", { status: response?.status, hasContent: Boolean(content) });
+    if (!content) {
+      console.error('Groq chat response missing content', response?.data);
+      throw new Error('Invalid response from Groq chat API');
+    }
+    return content;
   } catch (error) {
-    console.error("Error fetching chatbot response:", error);
+    const err: any = error;
+    if (err?.response) {
+      console.error("Groq Chat API Error:", {
+        status: err.response.status,
+        data: err.response.data,
+      });
+    } else {
+      console.error("Error fetching chatbot response:", err?.message || err);
+    }
     return "I'm having trouble connecting to my knowledge base at the moment. Please try again later.";
   }
 };
@@ -299,3 +335,4 @@ export const getMarketInsights = async () => {
     ]
   };
 };
+
