@@ -1,4 +1,4 @@
-# 🚀 Evo AI Wallets
+# 🚀 Evo AI Wallet
 
 A smart, AI-powered crypto wallet that leverages real-time market analysis to help users identify the best coins to invest in. Built as part of the Namespace Community Hackathon, integrating the powerful **Gork API** for live crypto data and predictive insights.
 
