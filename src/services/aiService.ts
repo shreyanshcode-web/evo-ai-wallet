@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // Store API key - In a production environment, this should be stored in environment variables
-const GROQ_API_KEY = "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";
+const GROQ_API_KEY = "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";
 
 // Flag to toggle between mock and production API calls
 const USE_MOCK_DATA = false; // Set to false to use real API
