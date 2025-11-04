@@ -1,4 +1,4 @@
-# 🚀 Evo AI Wallets
+# 🚀 Evo AI Wallet
 
 A smart, AI-powered crypto wallet that leverages real-time market analysis to help users identify the best coins to invest in. Built as part of the Namespace Community Hackathon, integrating the powerful **Gork API** for live crypto data and predictive insights.
 
@@ -6,7 +6,7 @@ A smart, AI-powered crypto wallet that leverages real-time market analysis to he
 
 ---
 
-## 📌 Problem Statement <1>
+## 📌 Problem Statement
 
 > **"Implement the Gork API in a project that helps users make sense of live crypto market data and empowers them with actionable insights."**
 
@@ -124,4 +124,5 @@ This project is built with:
 - 📊 Advanced analytics and predictions
 - 💳 Adding full wallet experience
 - 💹 Fully functioning buying and selling window
+- 📊 Technical Model training
 """

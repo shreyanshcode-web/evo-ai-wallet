@@ -335,3 +335,4 @@ export const getMarketInsights = async () => {
     ]
   };
 };
+
