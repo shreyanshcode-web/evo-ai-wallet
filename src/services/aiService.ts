@@ -4,7 +4,9 @@ import axios from "axios";
 // Prefer environment variable (Vite exposes variables prefixed with VITE_ to the client).
 // If an env var is not provided, we fallback to the in-repo key for backward compatibility,
 // but this is unsafe for public repos and should be replaced with a secret in CI/CD.
-const GROQ_API_KEY = (import.meta.env as any).VITE_GROQ_API_KEY || "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";
+const GROQ_API_KEY = (import.meta.env as any).VITE_GROQ_API_KEY || "enter your gork api \
+ 
+  ";
 
 if (!((import.meta.env as any).VITE_GROQ_API_KEY)) {
   // Warn in dev when the repo contains a hardcoded key
