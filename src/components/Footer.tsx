@@ -179,3 +179,6 @@ export function Footer() {
 
 
 // --- IGNORE ---
+
+// The following is sample data and usage example for testing purposes only.
+// It is not part of the Footer component and should be ignored during implementation.  
