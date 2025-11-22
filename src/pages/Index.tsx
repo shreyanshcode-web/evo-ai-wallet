@@ -120,3 +120,25 @@ const Index = () => {
   );
 };
 export default Index;
+
+
+/* Usage Example:
+import Index from '@/pages/Index';  
+function App() {  
+  return <Index />;
+}
+export default App; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+// end

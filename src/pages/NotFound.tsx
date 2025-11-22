@@ -25,3 +25,43 @@ const NotFound = () => {
 };
 
 export default NotFound;
+
+
+
+
+
+
+
+
+/* Usage Example:
+import NotFound from "@/pages/NotFound";
+export default function App() {
+  return (
+    <div> 
+      <NotFound />
+    </div>    
+
+  );
+} */  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // end

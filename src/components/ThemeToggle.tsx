@@ -56,3 +56,34 @@ export function ThemeToggle() {
     </DropdownMenu>
   );
 }
+
+
+
+
+
+
+
+
+
+/* Usage Example:
+import { ThemeToggle } from "@/components/ThemeToggle";
+export default function Navbar() {
+  return (  
+    <nav>
+      <ThemeToggle /> 
+    </nav>
+  );
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+  // Mock data for demonstration purposes

@@ -123,3 +123,17 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
+
+/* Usage Example:
+import Portfolio from "@/pages/dashboard/Portfolio";  
+export default function Dashboard() {
+  return (
+    <div>
+      <Portfolio /> 
+    </div>
+  );
+} */  
+  // end
+    

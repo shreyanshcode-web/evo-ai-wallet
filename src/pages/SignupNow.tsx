@@ -127,3 +127,41 @@ const SignupNow = () => {
 };
 
 export default SignupNow;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//* Usage Example:
+/*  import SignupNow from "@/pages/SignupNow";
+export default function App() {
+  return (
+    <div> 
+      <SignupNow />
+    </div>
+  );
+} */
+
+
+
+
+
+
+
+
+
+
+
+  // end

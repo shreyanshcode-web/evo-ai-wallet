@@ -153,3 +153,11 @@ export const fetchNewsDetails = async (articleId: string): Promise<NewsArticle |
   const article = sampleNewsData.find(article => article.source_id === articleId);
   return article || null;
 };
+
+/* Usage Example:
+(async () => {
+  const { articles, nextPage, usingSampleData } = await fetchCryptoNews();    
+  console.log("Fetched Articles:", articles);
+  console.log("Next Page Token:", nextPage);
+  console.log("Using Sample Data:", usingSampleData);
+})(); */

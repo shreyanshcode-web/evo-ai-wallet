@@ -17,3 +17,54 @@ export function useIsMobile() {
 
   return !!isMobile
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Usage Example:
+import { useIsMobile } from "@/hooks/use-mobile"; 
+export default function MyComponent() {
+
+  const isMobile = useIsMobile();
+
+  return (
+    <div>
+      {isMobile ? <MobileView /> : <DesktopView />}
+    </div>
+  );
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // --- IGNORE ---

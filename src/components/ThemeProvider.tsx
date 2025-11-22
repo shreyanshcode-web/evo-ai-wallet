@@ -72,3 +72,32 @@ export const useTheme = () => {
   }
   return context;
 };
+
+
+
+
+
+
+
+
+
+/* Usage Example:
+import { ThemeProvider, useTheme } from "@/components/ThemeProvider"; 
+export default function App() {
+  const { theme, setTheme } = useTheme(); 
+  return (
+    <ThemeProvider defaultTheme="system"> 
+      <YourMainContent />
+    </ThemeProvider>
+  );
+} */
+
+
+
+
+
+
+
+
+
+  // Mock data for demonstration purposes

@@ -55,3 +55,55 @@ const App = () => (
 );
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//* Usage Example:
+/* import App from "@/App"; 
+export default function Main() {
+  return (
+    <div>
+      <App />
+    </div>
+  );
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //end

@@ -338,3 +338,15 @@ export const getMarketInsights = async () => {
   };
 };
 
+
+/*
+  Notes:
+  - This service module provides functions to interact with the Groq AI API for cryptocurrency analysis and chatbot responses.
+
+  - It includes mock data for development and testing purposes, which can be toggled with the USE_MOCK_DATA flag.
+
+  - The AI analysis function processes the raw AI response to extract sentiment, confidence, and key points for better usability.   
+  - Error handling is implemented to log detailed information and provide fallback responses when API calls fail.
+  - The chatbot function is designed to provide concise and relevant answers to user queries about cryptocurrencies.
+  - Market insights function returns static data simulating AI-generated market summaries and trends.
+*/

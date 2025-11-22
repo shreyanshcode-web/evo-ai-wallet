@@ -108,3 +108,36 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Usage Example:
+import Dashboard from "@/pages/Dashboard";  
+export default function App() {
+  return (
+    <div>
+      <Dashboard /> 
+    </div>
+  );
+} */  
+
+
+
+
+
+
+
+
+
+  // end

@@ -457,3 +457,16 @@ const generateMockHistoricalData = (basePrice: number, days: number) => {
   
   return data;
 };
+
+
+/*Usage Example:
+(async () => {  
+  const topCryptos = await fetchTopCryptos(5);
+  console.log("Top Cryptos:", topCryptos);  
+  const btcDetails = await fetchCryptoDetails(1);
+  console.log("Bitcoin Details:", btcDetails);
+
+  const btcHistorical = await getHistoricalPriceData("BTC", 7);
+  console.log("Bitcoin Historical Data:", btcHistorical);
+})();
+*/

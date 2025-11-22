@@ -134,3 +134,48 @@ export function Footer() {
     </footer>
   );
 }
+
+/* Usage Example:
+(async () => {
+  const { articles, nextPage, usingSampleData } = await fetchCryptoNews();
+  console.log("Fetched Articles:", articles);
+  console.log("Next Page Token:", nextPage);
+  console.log("Using Sample Data:", usingSampleData);
+})(); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// --- IGNORE ---

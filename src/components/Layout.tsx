@@ -16,3 +16,36 @@ export function Layout({ children }: LayoutProps) {
     </div>
   );
 }
+/* Usage Example:
+import { Layout } from "@/components/Layout"; 
+export default function App() {
+  return (
+    <Layout>
+      <YourMainContent /> 
+
+    </Layout>
+  );
+} */
+// src/services/newsApi.ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Mock data for demonstration purposes// 

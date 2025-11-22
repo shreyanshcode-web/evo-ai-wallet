@@ -351,3 +351,22 @@ const Settings = () => {
 };
 
 export default Settings;
+
+
+
+
+
+
+
+/* Usage Example:
+import Settings from "@/pages/dashboard/Settings";    
+export default function Dashboard() {
+  return (
+    <div>
+      <Settings /> 
+    </div>
+  );
+} */  
+  // end
+    
+  

@@ -392,3 +392,43 @@ const Cryptocurrencies = () => {
 };
 
 export default Cryptocurrencies;
+
+
+
+
+
+
+
+
+
+
+
+
+/* Usage Example:
+import Cryptocurrencies from "@/pages/Markets/Cryptocurrencies";
+
+export default function MarketsPage() {
+  return (
+    <div>
+
+      <Cryptocurrencies />
+    </div>
+  );  
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //end

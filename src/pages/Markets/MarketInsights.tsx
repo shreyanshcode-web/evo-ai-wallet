@@ -239,3 +239,52 @@ const MarketInsights = () => {
 };
 
 export default MarketInsights;
+
+
+
+
+
+
+
+
+
+
+
+
+/* Usage Example:
+import MarketInsights from "@/pages/Markets/MarketInsights";
+export default function MarketsPage() {
+  return (  
+    <div>
+
+      <MarketInsights />
+    </div>
+  );
+} */  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //
+  // end

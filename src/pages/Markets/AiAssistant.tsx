@@ -481,3 +481,29 @@ const AiAssistant = () => {
 };
 
 export default AiAssistant;
+
+
+
+
+
+/* Usage Example:
+import AiAssistant from "@/pages/Markets/AiAssistant";
+export default function App() { 
+  return <AiAssistant />; 
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// end

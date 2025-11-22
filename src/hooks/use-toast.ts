@@ -189,3 +189,141 @@ function useToast() {
 }
 
 export { useToast, toast }
+
+/* Usage Example:
+import { useToast } from "@/hooks/use-toast"; 
+export default function MyComponent() {
+  const { toast, dismiss } = useToast();
+
+  const showToast = () => {
+    const myToast = toast({
+      title: "Hello World",
+      description: "This is a toast notification.",
+    });
+    // Dismiss the toast after 5 seconds
+    setTimeout(() => {
+      myToast.dismiss();
+    }, 5000);
+  };
+
+  return (
+    <div>
+      <button onClick={showToast}>Show Toast</button>
+    </div>
+  );
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Usage Example:
+  // import { useToast } from "@/hooks/use-toast";
+  // export default function MyComponent() {
+  //   const { toast, dismiss } = useToast();
+  //
+  //   const showToast = () => {
+  //     const myToast = toast({
+  //       title: "Hello World",
+  //       description: "This is a toast notification.",
+  //     });
+  //     // Dismiss the toast after 5 seconds
+  //     setTimeout(() => {
+  //       myToast.dismiss();
+  //     }, 5000);
+  //   };
+  //   return (
+  //     <div>
+  //       <button onClick={showToast}>Show Toast</button>
+  //     </div>
+  //   );
+  // }
+
+
+
+
+
+
+
+
+
+
+
+  // Usage Example:
+  // import { useToast } from "@/hooks/use-toast";
+  // export default function MyComponent() {    
+  //   const { toast, dismiss } = useToast();
+  //
+  //   const showToast = () => {    
+  //     const myToast = toast({  
+  //       title: "Hello World",  
+  //       description: "This is a toast notification.",
+  //     });
+  //     // Dismiss the toast after 5 seconds
+  //     setTimeout(() => {    
+  //       myToast.dismiss(); 
+  //     }, 5000);
+  //   };
+  //
+  //   return (
+
+
+  //     <div>    
+  //       <button onClick={showToast}>Show Toast</button>
+  //     </div>
+  //   );
+  // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Usage Example:
+  // import { useToast } from "@/hooks/use-toast"; 
+  // export default function MyComponent() {
+  //   const { toast, dismiss } = useToast();
+
+  //   const showToast = () => {  
+  //     const myToast = toast({  
+  //       title: "Hello World",  
+  //       description: "This is a toast notification.",  
+  //     });
+  //     // Dismiss the toast after 5 seconds  
+  //     setTimeout(() => {    
+  //       myToast.dismiss();  
+  //     }, 5000);  
+  //   };
+  //   return (
+  //     <div>    
+  //       <button onClick={showToast}>Show Toast</button>  
+  //     </div>  
+  //   );  
+  // }
+      //  <div>
+      //    <button onClick={showToast}>Show Toast</button>
+      //  </div>
+      // );
+      // }
+               
+
+      // end

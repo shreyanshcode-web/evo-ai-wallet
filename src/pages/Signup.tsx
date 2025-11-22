@@ -216,3 +216,50 @@ const Signup = () => {
 };
 
 export default Signup;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//* Usage Example:
+/*  import Signup from "@/pages/Signup";
+
+export default function App() {
+  return (
+    <div>
+      <Signup />
+    </div>
+  );
+} */
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //end

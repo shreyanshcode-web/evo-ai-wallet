@@ -137,3 +137,55 @@ const Login = () => {
 };
 
 export default Login;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Usage Example:
+import Login from "@/pages/Login";
+
+export default function App() {
+  return (
+    <div>
+      <Login />
+    </div>
+  );
+} */
+// end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// end

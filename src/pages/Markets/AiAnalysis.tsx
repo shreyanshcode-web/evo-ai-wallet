@@ -412,3 +412,17 @@ const AiAnalysis = () => {
 };
 
 export default AiAnalysis;
+
+
+
+
+
+
+
+
+/* Usage Example:import AiAnalysis from "@/pages/Markets/AiAnalysis";
+export default function App() {
+  return <AiAnalysis />;
+} */
+  // end
+    // end

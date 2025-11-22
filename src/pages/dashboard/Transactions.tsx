@@ -202,3 +202,35 @@ const Transactions = () => {
 };
 
 export default Transactions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Usage Example:
+import Transactions from "@/pages/dashboard/Transactions";  
+export default function Dashboard() {
+  return (
+    <div>
+      <Transactions /> 
+    </div>
+  );
+} */  
+  // end
+    
+
+
+
+
+
+
+
+  // end

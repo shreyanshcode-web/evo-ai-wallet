@@ -194,3 +194,41 @@ export function Navbar() {
     </nav>
   );
 }
+
+
+/* Usage Example:
+import { Navbar } from "@/components/Navbar";
+export default function App() {
+  return (
+    <div>
+      <Navbar />
+      <YourMainContent />
+    </div>
+  );
+} */
+// src/services/newsApi.ts
+// src/services/newsApi.ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Mock data for demonstration purposes//
